@@ -1,0 +1,108 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+*
+{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    overflow-x: hidden;
+}
+:root{
+    --bs-dark: black;
+}
+
+h1{
+    color: var(--bs-dark);
+    font-weight: 800;
+}
+p{
+    font-weight: 400;
+    font-size: 1rem;
+    letter-spacing: 0.07rem;
+    line-height: 1.55rem;
+    text-rendering: optimizeLegibility;   
+}
+.b-img img
+{
+    width: 55%;
+    border-radius: 2rem;
+    display: grid;
+    place-content: center;
+    height: inherit;
+}
+.container1
+{
+    margin-top: 150px;
+    place-content: center;
+    margin-left: 150px;
+}
+.bg-color
+{
+    background-color: black;
+  overflow-y: hidden;
+}
+.nav-link
+{
+    color: white;
+    font-weight: bold;
+}
+.nav-link:hover
+{
+    color: blue;
+}
+.custom-shape-divider-bottom-1706487263 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1706487263 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-bottom-1706487263 .shape-fill {
+    fill: #FFFFFF;
+}
+.bg-main
+{
+    position: relative;
+    height: 85vh;
+}
+.commom-title
+{
+    margin-top: 90px;
+}
+.card-body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.b-icon-bcg
+{
+    background-color: blue;
+    color: #FFFFFF;
+}
+.b-start
+{
+    margin-left: 170px;
+}
+.card:hover
+{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.b-bgimg
+{
+    background:linear-gradient(to right, rgba(0, 0, 0, 0.925), rgba(0, 0, 0, 0.89)), url(https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
